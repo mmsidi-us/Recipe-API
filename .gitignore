@@ -1,1 +1,22 @@
-﻿
+﻿---
+
+### File 2: `.gitignore`
+```ini
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editor configurations 
+.vscode/
+.idea/
+
+# Testing caches
+.pytest_cache/
